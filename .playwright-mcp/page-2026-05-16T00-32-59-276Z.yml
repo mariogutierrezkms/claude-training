@@ -1,0 +1,178 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e58]: Create a pricing card component for a SaaS product
+            - img [ref=e61]
+          - generic [ref=e82]:
+            - img [ref=e85]
+            - generic [ref=e90]:
+              - generic [ref=e93]: Creating /App.jsx
+              - separator [ref=e94]
+              - generic [ref=e97]: Creating /components/PricingCard.jsx
+              - separator [ref=e98]
+              - paragraph [ref=e100]: Done! Created a pricing card component with three example tiers. The "Professional" plan is highlighted as the most popular option. Features include hover animations, responsive grid layout, and checkmark icons for each feature.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [ref=e32]
+          - tab "Code" [active] [selected] [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - generic [ref=e101]:
+        - generic [ref=e107]:
+          - generic [ref=e108]:
+            - generic [ref=e109] [cursor=pointer]:
+              - img [ref=e110]
+              - img [ref=e112]
+              - generic [ref=e114]: components
+            - generic [ref=e117] [cursor=pointer]:
+              - img [ref=e118]
+              - generic [ref=e123]: PricingCard.jsx
+          - generic [ref=e125] [cursor=pointer]:
+            - img [ref=e126]
+            - generic [ref=e131]: App.jsx
+        - separator [ref=e132]
+        - code [ref=e137]:
+          - generic [ref=e138]:
+            - generic [ref=e140]:
+              - generic [ref=e143]: "1"
+              - generic [ref=e145]: "2"
+              - generic [ref=e146]:
+                - generic [ref=e147] [cursor=pointer]: 
+                - generic [ref=e148]: "3"
+              - generic [ref=e149]:
+                - generic [ref=e150] [cursor=pointer]: 
+                - generic [ref=e151]: "4"
+              - generic [ref=e152]:
+                - generic [ref=e153] [cursor=pointer]: 
+                - generic [ref=e154]: "5"
+              - generic [ref=e157]:
+                - generic [ref=e158] [cursor=pointer]: 
+                - generic [ref=e159]: "6"
+              - generic [ref=e161]:
+                - generic [ref=e162] [cursor=pointer]: 
+                - generic [ref=e163]: "7"
+              - generic [ref=e165]: "8"
+              - generic [ref=e167]: "9"
+              - generic [ref=e169]: "10"
+              - generic [ref=e170]:
+                - generic [ref=e171] [cursor=pointer]: 
+                - generic [ref=e172]: "11"
+              - generic [ref=e174]: "12"
+              - generic [ref=e176]: "13"
+              - generic [ref=e178]: "14"
+              - generic [ref=e180]: "15"
+              - generic [ref=e182]: "16"
+              - generic [ref=e184]: "17"
+              - generic [ref=e186]: "18"
+              - generic [ref=e188]: "19"
+              - generic [ref=e189]:
+                - generic [ref=e190] [cursor=pointer]: 
+                - generic [ref=e191]: "20"
+              - generic [ref=e193]: "21"
+              - generic [ref=e195]: "22"
+              - generic [ref=e197]: "23"
+              - generic [ref=e198]:
+                - generic [ref=e199] [cursor=pointer]: 
+                - generic [ref=e200]: "24"
+              - generic [ref=e202]: "25"
+              - generic [ref=e204]: "26"
+              - generic [ref=e206]: "27"
+              - generic [ref=e208]: "28"
+              - generic [ref=e210]: "29"
+              - generic [ref=e212]: "30"
+              - generic [ref=e214]: "31"
+              - generic [ref=e216]: "32"
+              - generic [ref=e218]: "33"
+              - generic [ref=e219]:
+                - generic [ref=e220] [cursor=pointer]: 
+                - generic [ref=e221]: "34"
+              - generic [ref=e223]: "35"
+              - generic [ref=e225]: "36"
+              - generic [ref=e227]: "37"
+              - generic [ref=e228]:
+                - generic [ref=e229] [cursor=pointer]: 
+                - generic [ref=e230]: "38"
+              - generic [ref=e232]: "39"
+              - generic [ref=e234]: "40"
+              - generic [ref=e236]: "41"
+              - generic [ref=e238]: "42"
+              - generic [ref=e240]: "43"
+              - generic [ref=e242]: "44"
+              - generic [ref=e244]: "45"
+              - generic [ref=e246]: "46"
+              - generic [ref=e248]: "47"
+              - generic [ref=e250]: "48"
+              - generic [ref=e252]: "49"
+              - generic [ref=e254]: "50"
+              - generic [ref=e256]: "51"
+              - generic [ref=e258]: "52"
+            - generic [ref=e551]:
+              - generic [ref=e553]: import PricingCard from '@/components/PricingCard';
+              - generic [ref=e556]: "export default function App() {"
+              - generic [ref=e558]: return (
+              - generic [ref=e560]: <div className="min-h-screen bg-gradient-to-br
+              - generic [ref=e562]: from-slate-900 to-slate-800 flex items-center
+              - generic [ref=e564]: justify-center p-4">
+              - generic [ref=e566]: <div className="grid grid-cols-1 md:grid-cols-3 gap-8
+              - generic [ref=e568]: max-w-6xl">
+              - generic [ref=e570]: <PricingCard
+              - generic [ref=e572]: name="Starter"
+              - generic [ref=e574]: price="29"
+              - generic [ref=e576]: description="Perfect for getting started"
+              - generic [ref=e578]: "features={["
+              - generic [ref=e580]: "'Up to 10 projects',"
+              - generic [ref=e582]: "'5GB storage',"
+              - generic [ref=e584]: "'Basic analytics',"
+              - generic [ref=e586]: "'Community support',"
+              - generic [ref=e588]: "'Monthly billing'"
+              - generic [ref=e590]: "]}"
+              - generic [ref=e592]: "highlighted={false}"
+              - generic [ref=e594]: />
+              - generic [ref=e596]: <PricingCard
+              - generic [ref=e598]: name="Professional"
+              - generic [ref=e600]: price="79"
+              - generic [ref=e602]: description="Best for growing teams"
+              - generic [ref=e604]: "features={["
+              - generic [ref=e606]: "'Unlimited projects',"
+              - generic [ref=e608]: "'500GB storage',"
+              - generic [ref=e610]: "'Advanced analytics',"
+              - generic [ref=e612]: "'Priority support',"
+              - generic [ref=e614]: "'Custom integrations',"
+              - generic [ref=e616]: "'Monthly or annual billing'"
+              - generic [ref=e618]: "]}"
+              - generic [ref=e620]: "highlighted={true}"
+              - generic [ref=e622]: />
+              - generic [ref=e624]: <PricingCard
+              - generic [ref=e626]: name="Enterprise"
+              - generic [ref=e628]: price="Custom"
+              - generic [ref=e630]: description="For large organizations"
+              - generic [ref=e632]: "features={["
+              - generic [ref=e634]: "'Unlimited everything',"
+              - generic [ref=e636]: "'Unlimited storage',"
+              - generic [ref=e638]: "'Custom analytics',"
+              - generic [ref=e640]: "'24/7 dedicated support',"
+              - generic [ref=e642]: "'SSO & advanced security',"
+              - generic [ref=e644]: "'Custom contracts'"
+              - generic [ref=e646]: "]}"
+              - generic [ref=e648]: "highlighted={false}"
+              - generic [ref=e650]: />
+              - generic [ref=e652]: </div>
+              - generic [ref=e654]: </div>
+              - generic [ref=e656]: );
+              - generic [ref=e658]: "}"
+            - textbox "Editor content" [ref=e661]
+  - alert [ref=e48]
+  - generic [ref=e662]:
+    - alert
+    - alert
